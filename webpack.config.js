@@ -10,7 +10,7 @@ module.exports = {
         library: 'LogStylizerWebpackPlugin',
         libraryTarget: 'umd'
     },
-    mode: 'development',
+    mode: 'production',
     target: 'node',
     module: {
         rules: [
