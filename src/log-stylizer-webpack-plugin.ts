@@ -51,5 +51,3 @@ export class LogStylizerWebpackPlugin {
         })
     }
 }
-
-LogStylizerWebpackPlugin
