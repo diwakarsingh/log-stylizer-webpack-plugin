@@ -4,11 +4,12 @@
   "description": "A webpack plugin to stylize the JavaScript logs. This will help developers to make console logs catchy.",
   "main": "dist/logStylizerWebpackPlugin.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diwakarsingh/log-stylizer-webpack-plugin.git"
+    "url": "https://github.com/diwakarsingh/log-stylizer-webpack-plugin.git"
   },
   "keywords": [
     "javascript console color",
@@ -28,5 +29,9 @@
     "webpack": "^5.17.0",
     "webpack-cli": "^4.4.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "dist/"
+  ],
+  "types": "dist/log-stylizer-webpack-plugin.d.ts"
 }
