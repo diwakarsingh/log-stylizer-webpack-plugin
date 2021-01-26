@@ -1,6 +1,6 @@
 {
   "name": "log-stylizer-webpack-plugin",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A webpack plugin to stylize the JavaScript logs. This will help developers to make console logs catchy.",
   "main": "dist/logStylizerWebpackPlugin.js",
   "scripts": {
